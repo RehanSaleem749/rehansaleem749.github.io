@@ -54,7 +54,7 @@
                     <li class=nav-item><a class=nav-link href=#experiences>Experiences</a></li>
                     <!--<li class=nav-item><a class=nav-link href=#skills>Skills</a></li>-->
                     <li class=nav-item><a class=nav-link href=#talks>Talks & Podcast</a></li>
-                    <li class=nav-item><a class=nav-link href=#experiences>Books</a></li>
+                    <li class=nav-item><a class=nav-link href=#readings>Readings</a></li>
                     <!--<li class=nav-item><a class=nav-link href=#education>Education</a></li>
                     <li class="nav-item dropdown"><a class="nav-link dropdown-toggle" href=# id=navbarDropdown
                             role=button data-toggle=dropdown aria-haspopup=true aria-expanded=false>More</a>
@@ -641,12 +641,126 @@
         </div>
     </div>-->
 
+<div class="container-fluid section-holder d-flex bg-dimmed">
+        <div class="container-fluid anchor pb-5 publications-section" id=talks>
+            <h1 class=text-center><span id=talks></span>Talks and Podcasts</h1>
+            <div class="container ml-auto text-center">
+                <div class="btn-group flex-wrap" role=pub-group id=publication-filter-buttons><button type=button
+                        class="btn btn-dark pub-filtr-control" data-filter=pub-all>
+                        All</button>
+                    <button type=button class="btn btn-dark pub-filtr-control" data-filter=pub-machinelearning>
+                        Talks</button>
+                    <button type=button class="btn btn-dark pub-filtr-control" data-filter=pub-image-processing>
+                        Podcasts</button>
+                </div>
+            </div>
+            <div class="container filtr-publications">
+                <div class=row id=publication-card-holder>
+                    <div class="col-12 p-2 pub-filtr-item"
+                        data-category=pub-all,pub-machinelearning,pub-image-processing>
+                        <div class="card mt-3">
+                            <div class=card-header>
+                                <h5 class="card-title mb-0">An Example Paper on Machine Learning</h5>
+                                <div class=sub-title><span><a href=https://example.com>2020 IEEE Region Symposium
+                                            (TENSYMP)</a></span>
+                                    <span class=ml-2>7 June 2020</span>
+                                </div>
+                                <div class=authors><span class=mr-2><a href=https://example.com>Dr. Madman</a></span>
+                                    <span class=mr-2><a href=https://example.com>Dr. Lessmad</a></span>
+                                    <span class=mr-2><a href=https://example.com>Dr. Moremad</a></span>
+                                    <span class=mr-2><a href=https://example.com>Dr. Goodman</a></span>
+                                </div>
+                            </div>
+                            <div class=card-body>
+                                <p>Voluptate in id id voluptate laboris. Minim mollit aliquip sit aliqua ut exercitation
+                                    voluptate eiusmod consequat pariatur sunt enim veniam. Velit esse tempor laboris
+                                    anim tempor officia. Magna non labore duis do esse sit do ipsum culpa. Officia
+                                    consequat id non duis culpa dolor. Excepteur magna non nostrud cupidatat aute aliqua
+                                    aliquip.</p>
+                            </div>
+                            <div class=card-footer>
+                                <div class=tags><span class="btn badge btn-info ml-1 p-2">Machine Learning</span>
+                                    <span class="btn badge btn-info ml-1 p-2">Autonomous Driving</span>
+                                    <span class="btn badge btn-info ml-1 p-2">Computer Vision</span>
+                                </div>
+                                <div class=details-btn><a class="btn btn-outline-info ml-1 pl-2 mb-2"
+                                        href=https://example.com target=_blank rel=noopener role=button>Details</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 p-2 pub-filtr-item" data-category=pub-all,pub-image-processing>
+                        <div class="card mt-3">
+                            <div class=card-header>
+                                <h5 class="card-title mb-0">An Sample Paper on Image Processing</h5>
+                                <div class=sub-title><span><a href=https://example.com>2020 IEEE Region Symposium
+                                            (TENSYMP)</a></span>
+                                    <span class=ml-2>7 June 2020</span>
+                                </div>
+                                <div class=authors><span class=mr-2><a href=https://example.com>Dr. Madman</a></span>
+                                    <span class=mr-2><a href=https://example.com>Dr. Lessmad</a></span>
+                                    <span class=mr-2><a href=https://example.com>Dr. Moremad</a></span>
+                                    <span class=mr-2><a href=https://example.com>Dr. Goodman</a></span>
+                                </div>
+                            </div>
+                            <div class=card-body>
+                                <p>Ullamco magna minim cupidatat Lorem ea ex aliqua fugiat et. Dolor quis cillum ea duis
+                                    irure et commodo aliquip consectetur ullamco labore ut anim nisi. Commodo
+                                    reprehenderit est consectetur tempor adipisicing occaecat exercitation amet do
+                                    aliquip dolor do irure. Labore officia ut magna pariatur reprehenderit et ex sit
+                                    sunt. Magna proident ullamco adipisicing sit.</p>
+                            </div>
+                            <div class=card-footer>
+                                <div class=tags><span class="btn badge btn-info ml-1 p-2">Image Processing</span>
+                                    <span class="btn badge btn-info ml-1 p-2">Computer Vision</span>
+                                </div>
+                                <div class=details-btn><a class="btn btn-outline-info ml-1 pl-2 mb-2"
+                                        href=https://example.com target=_blank rel=noopener role=button>Details</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 p-2 pub-filtr-item" data-category=pub-all,pub-security>
+                        <div class="card mt-3">
+                            <div class=card-header>
+                                <h5 class="card-title mb-0">An Example Paper on Security</h5>
+                                <div class=sub-title><span><a href=https://example.com>2020 IEEE Region Symposium
+                                            (TENSYMP)</a></span>
+                                    <span class=ml-2>7 June 2020</span>
+                                </div>
+                                <div class=authors><span class=mr-2><a href=https://example.com>Dr. Madman</a></span>
+                                    <span class=mr-2><a href=https://example.com>Dr. Lessmad</a></span>
+                                    <span class=mr-2><a href=https://example.com>Dr. Moremad</a></span>
+                                    <span class=mr-2><a href=https://example.com>Dr. Goodman</a></span>
+                                </div>
+                            </div>
+                            <div class=card-body>
+                                <p>Dolor ad cupidatat pariatur nulla ipsum ex ullamco nisi anim ullamco. Dolore elit
+                                    esse in exercitation minim aliqua. Amet velit incididunt magna laboris. Proident
+                                    reprehenderit deserunt ad officia duis dolor. Tempor nostrud ullamco ullamco sint
+                                    deserunt cupidatat irure minim consectetur nulla adipisicing sunt.</p>
+                            </div>
+                            <div class=card-footer>
+                                <div class=tags><span class="btn badge btn-info ml-1 p-2">Machine Learning</span>
+                                    <span class="btn badge btn-info ml-1 p-2">Autonomous Driving</span>
+                                    <span class="btn badge btn-info ml-1 p-2">Machine Vision</span>
+                                </div>
+                                <div class=details-btn><a class="btn btn-outline-info ml-1 pl-2 mb-2"
+                                        href=https://example.com target=_blank rel=noopener role=button>Details</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 
 
 
     <div class="container-fluid section-holder d-flex bg-white">
-        <div class="container-fluid anchor pb-5 projects-section" id=talks>
-            <h1 class=text-center><span id=talks></span>Talks and Podcasts</h1>
+        <div class="container-fluid anchor pb-5 projects-section" id=readings>
+            <h1 class=text-center><span id=readings></span>Recommended Reading</h1>
             <div class="container ml-auto text-center">
                 <div class="btn-group flex-wrap" role=group id=project-filter-buttons><button type=button
                         class="btn btn-dark project-filtr-control" data-filter=all>
@@ -816,122 +930,7 @@
 
 
 
-    <div class="container-fluid section-holder d-flex bg-dimmed">
-        <div class="container-fluid anchor pb-5 publications-section" id=publications>
-            <h1 class=text-center><span id=publications></span>Publications</h1>
-            <div class="container ml-auto text-center">
-                <div class="btn-group flex-wrap" role=pub-group id=publication-filter-buttons><button type=button
-                        class="btn btn-dark pub-filtr-control" data-filter=pub-all>
-                        All</button>
-                    <button type=button class="btn btn-dark pub-filtr-control" data-filter=pub-machinelearning>
-                        Machine Learning</button>
-                    <button type=button class="btn btn-dark pub-filtr-control" data-filter=pub-image-processing>
-                        Image Processing</button>
-                    <button type=button class="btn btn-dark pub-filtr-control" data-filter=pub-security>
-                        Security</button>
-                </div>
-            </div>
-            <div class="container filtr-publications">
-                <div class=row id=publication-card-holder>
-                    <div class="col-12 p-2 pub-filtr-item"
-                        data-category=pub-all,pub-machinelearning,pub-image-processing>
-                        <div class="card mt-3">
-                            <div class=card-header>
-                                <h5 class="card-title mb-0">An Example Paper on Machine Learning</h5>
-                                <div class=sub-title><span><a href=https://example.com>2020 IEEE Region Symposium
-                                            (TENSYMP)</a></span>
-                                    <span class=ml-2>7 June 2020</span>
-                                </div>
-                                <div class=authors><span class=mr-2><a href=https://example.com>Dr. Madman</a></span>
-                                    <span class=mr-2><a href=https://example.com>Dr. Lessmad</a></span>
-                                    <span class=mr-2><a href=https://example.com>Dr. Moremad</a></span>
-                                    <span class=mr-2><a href=https://example.com>Dr. Goodman</a></span>
-                                </div>
-                            </div>
-                            <div class=card-body>
-                                <p>Voluptate in id id voluptate laboris. Minim mollit aliquip sit aliqua ut exercitation
-                                    voluptate eiusmod consequat pariatur sunt enim veniam. Velit esse tempor laboris
-                                    anim tempor officia. Magna non labore duis do esse sit do ipsum culpa. Officia
-                                    consequat id non duis culpa dolor. Excepteur magna non nostrud cupidatat aute aliqua
-                                    aliquip.</p>
-                            </div>
-                            <div class=card-footer>
-                                <div class=tags><span class="btn badge btn-info ml-1 p-2">Machine Learning</span>
-                                    <span class="btn badge btn-info ml-1 p-2">Autonomous Driving</span>
-                                    <span class="btn badge btn-info ml-1 p-2">Computer Vision</span>
-                                </div>
-                                <div class=details-btn><a class="btn btn-outline-info ml-1 pl-2 mb-2"
-                                        href=https://example.com target=_blank rel=noopener role=button>Details</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-12 p-2 pub-filtr-item" data-category=pub-all,pub-image-processing>
-                        <div class="card mt-3">
-                            <div class=card-header>
-                                <h5 class="card-title mb-0">An Sample Paper on Image Processing</h5>
-                                <div class=sub-title><span><a href=https://example.com>2020 IEEE Region Symposium
-                                            (TENSYMP)</a></span>
-                                    <span class=ml-2>7 June 2020</span>
-                                </div>
-                                <div class=authors><span class=mr-2><a href=https://example.com>Dr. Madman</a></span>
-                                    <span class=mr-2><a href=https://example.com>Dr. Lessmad</a></span>
-                                    <span class=mr-2><a href=https://example.com>Dr. Moremad</a></span>
-                                    <span class=mr-2><a href=https://example.com>Dr. Goodman</a></span>
-                                </div>
-                            </div>
-                            <div class=card-body>
-                                <p>Ullamco magna minim cupidatat Lorem ea ex aliqua fugiat et. Dolor quis cillum ea duis
-                                    irure et commodo aliquip consectetur ullamco labore ut anim nisi. Commodo
-                                    reprehenderit est consectetur tempor adipisicing occaecat exercitation amet do
-                                    aliquip dolor do irure. Labore officia ut magna pariatur reprehenderit et ex sit
-                                    sunt. Magna proident ullamco adipisicing sit.</p>
-                            </div>
-                            <div class=card-footer>
-                                <div class=tags><span class="btn badge btn-info ml-1 p-2">Image Processing</span>
-                                    <span class="btn badge btn-info ml-1 p-2">Computer Vision</span>
-                                </div>
-                                <div class=details-btn><a class="btn btn-outline-info ml-1 pl-2 mb-2"
-                                        href=https://example.com target=_blank rel=noopener role=button>Details</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-12 p-2 pub-filtr-item" data-category=pub-all,pub-security>
-                        <div class="card mt-3">
-                            <div class=card-header>
-                                <h5 class="card-title mb-0">An Example Paper on Security</h5>
-                                <div class=sub-title><span><a href=https://example.com>2020 IEEE Region Symposium
-                                            (TENSYMP)</a></span>
-                                    <span class=ml-2>7 June 2020</span>
-                                </div>
-                                <div class=authors><span class=mr-2><a href=https://example.com>Dr. Madman</a></span>
-                                    <span class=mr-2><a href=https://example.com>Dr. Lessmad</a></span>
-                                    <span class=mr-2><a href=https://example.com>Dr. Moremad</a></span>
-                                    <span class=mr-2><a href=https://example.com>Dr. Goodman</a></span>
-                                </div>
-                            </div>
-                            <div class=card-body>
-                                <p>Dolor ad cupidatat pariatur nulla ipsum ex ullamco nisi anim ullamco. Dolore elit
-                                    esse in exercitation minim aliqua. Amet velit incididunt magna laboris. Proident
-                                    reprehenderit deserunt ad officia duis dolor. Tempor nostrud ullamco ullamco sint
-                                    deserunt cupidatat irure minim consectetur nulla adipisicing sunt.</p>
-                            </div>
-                            <div class=card-footer>
-                                <div class=tags><span class="btn badge btn-info ml-1 p-2">Machine Learning</span>
-                                    <span class="btn badge btn-info ml-1 p-2">Autonomous Driving</span>
-                                    <span class="btn badge btn-info ml-1 p-2">Machine Vision</span>
-                                </div>
-                                <div class=details-btn><a class="btn btn-outline-info ml-1 pl-2 mb-2"
-                                        href=https://example.com target=_blank rel=noopener role=button>Details</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
+    
     <div class="container-fluid section-holder d-flex bg-white">
         <div class="container-fluid anchor pb-5 recent-posts-section">
             <h1 class=text-center><span id=recent-posts></span>Recent Posts</h1>
